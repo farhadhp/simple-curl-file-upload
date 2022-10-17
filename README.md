@@ -24,6 +24,24 @@
 curl -O https://raw.githubusercontent.com/farhadhp/simple-curl-file-upload/master/upload.sh
 ```
 
+بعد از دانلود نیاز است متغییرهای مورد نیاز را مقداری دهی کنید. برای اینکار دستور زیر را بزنید (بجای ویرایشگر vim می‌توانید از هر ویرایشگر دلخواهی استفاده کنید).
+
+```bash
+vim upload.sh
+```
+
+متغییرهای زیر رو با توجه به اطلاعات اف‌تی‌پی سرور خودتون مقدار دهی کنید.
+
+```bash
+ftp_host="YOUR_HOST"
+ftp_username="USERNAME"
+ftp_password="PASSWORD"
+file_name="fake_file.zip"
+file_size="1M"
+```
+
+بعد از مقداردهی فایل رو ذخیره کنید.
+
 سپس توسط دستور زیر دسترسی اجرایی بدین:
 
 ```bash
