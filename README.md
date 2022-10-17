@@ -47,7 +47,7 @@ file_size="1M"
 سپس توسط دستور زیر دسترسی اجرایی بدین:
 
 ```bash
-chomd +x upload.sh
+chmod +x upload.sh
 ```
 
 برای اجرا کردن:
